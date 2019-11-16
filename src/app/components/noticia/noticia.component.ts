@@ -30,7 +30,6 @@ export class NoticiaComponent implements OnInit {
 
   abrirNoticia() {
     //console.log('Noticia ', this.noticia.url); 
-
     const browser = this.iab.create(this.noticia.url, '_system');
   }
 

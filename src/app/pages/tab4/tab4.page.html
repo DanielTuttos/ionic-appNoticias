@@ -1,0 +1,49 @@
+<ion-header no-border>
+  <ion-toolbar color="dark">
+    <ion-title>Información Creador</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark" padding>
+
+  <ion-card color="dark">
+
+    <ion-card-content>
+
+
+      <ion-list>
+
+        <ion-item color="dark" class="text-center">
+          <ion-icon slot="start" name="person"></ion-icon>
+          <ion-label>
+            <h2>Daniel Romero Aguirre</h2>
+          </ion-label>
+        </ion-item>
+
+        <ion-item color="dark" class="text-center">
+          <ion-icon slot="start" name="mail"></ion-icon>
+          <ion-label>
+            <h2>danielromeroag@gmail.com</h2>
+          </ion-label>
+        </ion-item>
+
+        <ion-item (click)="AbrirPagina()" color="dark" class="text-center">
+          <ion-icon slot="start" name="navigate"></ion-icon>
+          <ion-label>
+            <h2><a>Sitio Web</a></h2>
+          </ion-label>
+        </ion-item>
+
+        <ion-item color="dark" class="text-center">
+          <ion-icon slot="start" name="phone"></ion-icon>
+          <ion-label>
+            <h2>(+593)985404128</h2>
+          </ion-label>
+        </ion-item>
+
+
+      </ion-list>
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>

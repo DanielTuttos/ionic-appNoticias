@@ -19,6 +19,8 @@ import { IonicStorageModule } from '@ionic/storage';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
+import { ScreenOrientation } from '@ionic-native/screen-orientation/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -34,6 +36,7 @@ import { environment } from '../environments/environment';
     SplashScreen,
     InAppBrowser,
     SocialSharing,
+    ScreenOrientation,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
